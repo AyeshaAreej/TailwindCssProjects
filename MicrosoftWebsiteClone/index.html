@@ -5,8 +5,53 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./src/style.css" />
-    <!-- <link rel="icon" type="image/png" href="./src/assets/favicon.png" /> -->
-    <title>Microsoft</title>
+    <link
+      rel="SHORTCUT ICON"
+      href="/src/assets/favicon.ico"
+      type="image/x-icon"
+    />
+
+    <title>Microsoft - Official Home Page</title>
   </head>
-  <body class="bg-gray-100"></body>
+  <body>
+    <div class="navbar flex justify-between items-center p-4">
+      <div class="flex justify-center items-center md:order-2">
+        <div class="hamburger p-4 cursor-pointer md:hidden">
+          <div class="line h-0.5 w-6 my-1 bg-black"></div>
+          <div class="line h-0.5 w-6 my-1 bg-black"></div>
+          <div class="line h-0.5 w-6 my-1 bg-black"></div>
+        </div>
+        <div class="search md:hidden">Search Icon</div>
+      </div>
+      <div class="logo text-center md:order-1 flex">
+        <div>Microsoft</div>
+        <div
+          class="features absolute w-fit bg-gray-200 inset-0 -translate-x-96 md:static md:translate-x-0 md:flex md:mx-4 md:space-x-3 md:w-auto md:bg-white"
+        >
+          <div class="fItem">Microsoft 365</div>
+          <div class="fItem">Office</div>
+          <div class="fItem">Windows</div>
+          <div class="fItem">Surface</div>
+          <div class="fItem">xbox</div>
+          <div class="fItem">Support</div>
+        </div>
+      </div>
+      <div class="logo text-center md:order-3 flex">
+        <div class="search hidden md:block">
+          All Microsoft | Search Icon
+          <!-- <div>Search Icon</div> -->
+        </div>
+        <div>Cart</div>
+      </div>
+    </div>
+
+    <!-- Sidebar -->
+    <div class="sider flex flex-col-reverse md:flex-row bg-gray-400">
+      <div class="left"></div>
+      <div class="right">
+        <img />
+      </div>
+    </div>
+    <!-- Upper Div -->
+  </body>
 </html>
