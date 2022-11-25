@@ -14,44 +14,97 @@
     <title>Microsoft - Official Home Page</title>
   </head>
   <body>
-    <div class="navbar flex justify-between items-center p-4">
-      <div class="flex justify-center items-center md:order-2">
-        <div class="hamburger p-4 cursor-pointer md:hidden">
-          <div class="line h-0.5 w-6 my-1 bg-black"></div>
-          <div class="line h-0.5 w-6 my-1 bg-black"></div>
-          <div class="line h-0.5 w-6 my-1 bg-black"></div>
+    <div class="container mx-auto">
+      <div class="navbar flex justify-between items-center p-4">
+        <div class="flex justify-center items-center md:order-2">
+          <div class="hamburger p-4 cursor-pointer md:hidden">
+            <div class="line h-0.5 w-6 my-1 bg-black"></div>
+            <div class="line h-0.5 w-6 my-1 bg-black"></div>
+            <div class="line h-0.5 w-6 my-1 bg-black"></div>
+          </div>
+          <div class="search md:hidden">Search Icon</div>
         </div>
-        <div class="search md:hidden">Search Icon</div>
-      </div>
-      <div class="logo text-center md:order-1 flex">
-        <div>Microsoft</div>
-        <div
-          class="features absolute w-fit bg-gray-200 inset-0 -translate-x-96 md:static md:translate-x-0 md:flex md:mx-4 md:space-x-3 md:w-auto md:bg-white"
-        >
-          <div class="fItem">Microsoft 365</div>
-          <div class="fItem">Office</div>
-          <div class="fItem">Windows</div>
-          <div class="fItem">Surface</div>
-          <div class="fItem">xbox</div>
-          <div class="fItem">Support</div>
+        <div class="logo text-center md:order-1 flex">
+          <div class="px-4 w-[11.75rem]">
+            <img src="./src/assets/Logo.png" alt="MSLogo" />
+          </div>
+          <div
+            class="features absolute mt-[6px] w-fit bg-gray-200 inset-0 -translate-x-96 md:static md:translate-x-0 md:flex md:mx-4 md:space-x-3 md:w-auto md:bg-white"
+          >
+            <div class="fItem">Microsoft 365</div>
+            <div class="fItem">Office</div>
+            <div class="fItem">Windows</div>
+            <div class="fItem">Surface</div>
+            <div class="fItem">xbox</div>
+            <div class="fItem">Support</div>
+          </div>
+        </div>
+        <div class="logo text-center md:order-3 flex">
+          <div class="search hidden md:block">
+            All Microsoft | Search Icon
+            <!-- <div>Search Icon</div> -->
+          </div>
+          <div>Cart</div>
         </div>
       </div>
-      <div class="logo text-center md:order-3 flex">
-        <div class="search hidden md:block">
-          All Microsoft | Search Icon
-          <!-- <div>Search Icon</div> -->
-        </div>
-        <div>Cart</div>
-      </div>
-    </div>
 
-    <!-- Sidebar -->
-    <div class="sider flex flex-col-reverse md:flex-row bg-gray-400">
-      <div class="left"></div>
-      <div class="right">
-        <img />
+      <!-- Sidebar -->
+      <div class="sider flex flex-col-reverse md:flex-row bg-[#b2d6fa]">
+        <div
+          class="md:mx-20 left flex flex-col justify-center items-center md:items-baseline py-12"
+        >
+          <h1 class="text-2xl font-medium md:text-4xl mx-5">Microsoft 365</h1>
+          <p class="w-4/4 mx-5 mt-3 text-center md:text-left">
+            Everything you need to achieve more in less time
+          </p>
+          <button class="mx-5 text-white bg-[#0067B8] px-4 py-2 my-4 font-bold">
+            For One Person
+          </button>
+        </div>
+        <div class="right">
+          <img
+            class="w-[44rem] md:w-[44rem]"
+            src="./src/assets/HomeImg.PNG"
+            alt="laptop"
+          />
+        </div>
+      </div>
+
+      <!-- Options -->
+      <div class="promo space-y-6 flex flex-col md:flex-row md:justify-center">
+        <div class="item flex md:flex-col items-center mt-7 mx-4 space-x-2">
+          <img
+            class="w-[30px] h-[30px]"
+            src="./src/assets/microsoftLogo.png"
+            alt=""
+          />
+          <span class="font-bold">Choose your Microsoft 365</span>
+        </div>
+        <div class="item flex md:flex-col items-center mx-4 space-x-2">
+          <img
+            class="w-[30px] h-[30px]"
+            src="./src/assets/surfaceDeviceLogo.png"
+            alt=""
+          />
+          <span class="font-bold">Explore Surface Devices</span>
+        </div>
+        <div class="item flex md:flex-col items-center mx-4 space-x-2">
+          <img
+            class="w-[30px] h-[30px]"
+            src="./src/a sets/xboxLogo.png"
+            alt=""
+          />
+          <span class="font-bold">Buy Xbox Games</span>
+        </div>
+        <div class="item flex md:flex-col items-center mx-4 space-x-2">
+          <img
+            class="w-[30px] h-[30px]"
+            src="./src/assets/microsoftLogo.png"
+            alt=""
+          />
+          <span class="font-bold">Get Windows 11</span>
+        </div>
       </div>
     </div>
-    <!-- Upper Div -->
   </body>
 </html>
