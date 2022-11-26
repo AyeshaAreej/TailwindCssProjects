@@ -22,10 +22,12 @@
             <div class="line h-0.5 w-6 my-1 bg-black"></div>
             <div class="line h-0.5 w-6 my-1 bg-black"></div>
           </div>
-          <div class="search md:hidden">Search Icon</div>
+          <div class="search md:hidden w-6 mr-6">
+            <img class="rotate-90" src="./src/assets/search.svg" />
+          </div>
         </div>
         <div class="logo text-center md:order-1 flex">
-          <div class="px-4 w-[11.75rem]">
+          <div class="px-4 w-[11.75rem] justify-center">
             <img src="./src/assets/Logo.png" alt="MSLogo" />
           </div>
           <div
@@ -40,11 +42,20 @@
           </div>
         </div>
         <div class="logo text-center md:order-3 flex">
-          <div class="search hidden md:block">
-            All Microsoft | Search Icon
-            <!-- <div>Search Icon</div> -->
+          <div class="search hidden md:inline">All Microsoft</div>
+
+          <div class="mx-2">Search</div>
+
+          <img class="rotate-90 w-5 ml-2 mr-4" src="./src/assets/search.svg" />
+
+          <div class="flex">
+            <img
+              class="w-5 h-5 mr-4"
+              src="./src/assets/shopping-cart.svg"
+              alt=""
+            />
+            <img class="w-5 h-5 mr-4" src="./src/assets/user-icon.svg" alt="" />
           </div>
-          <div>Cart</div>
         </div>
       </div>
 
@@ -91,7 +102,7 @@
         <div class="item flex md:flex-col items-center mx-4 space-x-2">
           <img
             class="w-[30px] h-[30px]"
-            src="./src/a sets/xboxLogo.png"
+            src="./src/assets/xboxLogo.png"
             alt=""
           />
           <span class="font-bold">Buy Xbox Games</span>
